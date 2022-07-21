@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(70, 51, 115);
+    width: 100%;
+    height: 100vh;
+    font-family: tahoma;
+    font-size: 16px;
+    margin: 0;
+    background-image: url('team.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-position-y: center;
+    background-size:cover;
+}
+
+h1{
+    font-size: 25px;
+    font-family: tahoma;
+    text-align: center;
+    color: rgb(239, 239, 240);
+}
+
+p{
+    font-style: italic;
+    font-family: tahoma;
+    text-align: center;
+    padding-top: -10px;
+    color: rgb(239, 239, 240);
+}
+
+#survey-form{
+    background-color: rgba(41, 41, 72, 0.9);
+    width: 60%;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 13px;
+    color: rgb(239, 239, 240);
+}
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+    padding: 9px;
+    padding-bottom: 8px;
+}
+
+input, textarea{
+    width: 100%;
+    border-radius: 3px;
+    padding-top: 9px;
+    margin-top: 5px;
+
+}
+
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 99%;
+    min-width: 300px;
+    margin: 0 auto;
+    height: 3em;
+    font-size: 1.1rem;
+    background-color: rgb(55, 174, 55);
+    border: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: white;
+    padding-top: 0;
+}
+
+.x{
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    padding-left: 3px;
+    font-family: sans-serif;
+}
+
+.item{
+    padding-top: 4px;
+}
+
+
+fieldset{
+    padding-top: 0px;
+    border: none;
+}
+
+textarea{
+    color: rgb(144, 140, 140);
+    padding-top: 2px;
+    font-size: 15px;
+    padding-top: 0px;
+}
+
+.fofo{
+    margin-top: -14px;
+}
+
+.foot{
+    font-style: normal;
+    font-family: tahoma;
+    text-align: left;
+    color: rgb(239, 239, 240);
+    font-size: 13px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(190, 190, 190);
+}
+
+.imagea, .imageb{
+    height: 50px;
+    width: 60px;
+    display: inline-block;
+    padding-top: 0px;
+}
+
+.imagea{
+    margin-left: 100%;
+}
+
+.imageb{
+    margin-left: 150%;
+}
+
+div{
+    display: inline-block;
+}
