@@ -13,18 +13,18 @@
 
         <form id="survey-form">
             <fieldset>
-                <label id="name-label" placeholder="Enter your name" value="name">
-                    Name <input type="text" id="name">
+                <label id="name-label" value="name">
+                    Name <input type="text" id="name" required placeholder="Enter your name">
                 </label>
-                <label id="email-label" placeholder="Email" value="email">
-                    Email <input type="email" id="email">
+                <label id="email-label" value="email">
+                    Email <input type="email" id="email" required placeholder="Email">
                 </label>
-                <label id="number-label" placeholder="Age">
-                    Age (Optional) <input type="number" id="number" min="12" max="120" value="age">
+                <label id="number-label">
+                    Age (Optional) <input type="number" id="number" min="12" max="120" value="age" placeholder="Age">
                 </label>
                 <label>
                     Which option best describes your current role?
-                    <select class="x" id="dropwdown">
+                    <select class="x" id="dropdown">
                         <option value="">Select current role</option>
                         <option value="1">Competitor</option>
                         <option value="2">Organizer</option>
@@ -56,15 +56,15 @@
             <fieldset>
                 <label>
                     What are your favorite games from The Sunday League Games?
-                    <label class="item"><input type="checkbox" class="inline"> Football</label>
-                    <label class="item"><input type="checkbox" class="inline"> Basketball</label>
-                    <label class="item"><input type="checkbox" class="inline"> Tennis</label>
-                    <label class="item"><input type="checkbox" class="inline"> Baseball</label>
-                    <label class="item"><input type="checkbox" class="inline"> Handball</label>
-                    <label class="item"><input type="checkbox" class="inline"> Squash</label>
-                    <label class="item"><input type="checkbox" class="inline"> American Football</label>
-                    <label class="item"><input type="checkbox" class="inline"> Volleyball</label>
-                    <label class="item"><input type="checkbox" class="inline"> Badminton</label>
+                    <label class="item"><input type="checkbox" class="inline" value="football"> Football</label>
+                    <label class="item"><input type="checkbox" class="inline" value="basketball"> Basketball</label>
+                    <label class="item"><input type="checkbox" class="inline" value="tennis"> Tennis</label>
+                    <label class="item"><input type="checkbox" class="inline" value="baseball"> Baseball</label>
+                    <label class="item"><input type="checkbox" class="inline" value="handball"> Handball</label>
+                    <label class="item"><input type="checkbox" class="inline" value="squash"> Squash</label>
+                    <label class="item"><input type="checkbox" class="inline" value="american-football"> American Football</label>
+                    <label class="item"><input type="checkbox" class="inline" value="volleyball"> Volleyball</label>
+                    <label class="item"><input type="checkbox" class="inline" value="badminton"> Badminton</label>
                 </label>
             </fieldset>
 
@@ -75,7 +75,7 @@
             </fieldset>
             
             <fieldset>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" id="submit">
             </fieldset>
             
             <footer>
