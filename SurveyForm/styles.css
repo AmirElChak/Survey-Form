@@ -138,3 +138,9 @@ a:hover{
 div{
     display: inline-block;
 }
+
+::placeholder{
+    padding: 4px;
+    padding-bottom: 10%;
+    font-size: 15px;
+}
