@@ -1,1 +1,2 @@
-# Survey-Form
+Survey Form done without the help of freeCodeCamp this time. Instead, I used other online resources (GeeksForGeeks, W3Schools, StackOverflow...etc) to answer my questions, and as my guide. Faced many difficulties, but overcame all except one. The placeholder for the name, email, and age inputs doesn't appear insode the input box. No worries tho will fix it later. First proper mini-project done all by myself alongside the research part. Only way to move forward is by doing more and more.
+#TTP
